@@ -1,1 +1,1 @@
-This is for my website... Duh
+Redirects to https://jonathanrobichaud.ca
