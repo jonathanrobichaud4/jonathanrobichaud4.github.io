@@ -17,4 +17,4 @@ profile:
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! My name is Jonathan. I am a Computer Science Student at University of New Brunswick. I am a massive nerd and love problem solving! Please feel free to contact me at any of the social cahnnels below!
+Hi! My name is Jonathan. I am a Computer Science Student at the University of New Brunswick. I am a massive nerd and love problem solving! Please feel free to contact me at any of the social cahnnels below!
