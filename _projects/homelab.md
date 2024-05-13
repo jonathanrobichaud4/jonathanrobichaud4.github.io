@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Homelab
-published: false
+published: true
 description: My homelab setup for having fun and learning new things
 img: assets/img/12.jpg
 importance: 1
