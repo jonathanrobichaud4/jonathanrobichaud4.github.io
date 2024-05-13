@@ -3,6 +3,7 @@ layout: page
 title: project 4
 description: another without an image
 img:
+published: false
 importance: 3
 category: fun
 ---
