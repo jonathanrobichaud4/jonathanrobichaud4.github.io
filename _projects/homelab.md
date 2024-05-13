@@ -17,3 +17,11 @@ Over the last couple of years, I have aquired a few older enterprise-grade serve
 On top of the servers, I need the network infrastructure to support it. As my router and firewall, I am running OPNSense and for WiFi, I have 4 TP-Link Omada Access points around the house. These have seperate SSIDs on different VLANs to seperate IOT traffic from my family's. These VLANs seperate the servers as well.
 
 Ever since I started running a homelab, I have gained a new appreciation for the way that the internet and technology in general works. Being able to learn what I've learned has given me sense of accomplishment, even if it can be frustrating at times.
+
+## Hardware List
+
+- Dell PowerEdge R320 - TrueNAS Server
+- Dell PowerEdge R220 - Main Docker Server
+- Dell PowerEdge R210 - OPNSense Server
+- HP Elite Desk - Second Docker Server
+- Dell Optiplex - Proxmox Server
