@@ -44,6 +44,3 @@ Ever since I started running a homelab, I have gained a new appreciation for the
 <div class="caption">
     My Dell Servers
 </div>
-
-=======
->>>>>>> 1214322 (Revert "Add harware list")
