@@ -3,10 +3,19 @@ layout: page
 title: Homelab
 published: true
 description: My homelab setup for having fun and learning new things
-img: assets/img/12.jpg
+img: assets/img/IMG_4746.jpg
 importance: 1
 category: fun
 ---
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IMG_4746.jpg" title="Homelab Shelf" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    My Homelab and the messy basement
+</div>
 
 During the 2020 lockdown, I decided to pick up a server and start running different applications. This evolved quickly into another server for storage.
 
@@ -25,3 +34,13 @@ Ever since I started running a homelab, I have gained a new appreciation for the
 - Dell PowerEdge R210 - OPNSense Server
 - HP Elite Desk - Second Docker Server
 - Dell Optiplex - Proxmox Server
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/IMG_4747.jpg" title="Server Stack" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    My Dell Servers
+</div>
+
