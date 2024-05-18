@@ -19,7 +19,7 @@ category: fun
 
 During the 2020 lockdown, I decided to pick up a server and start running different applications. This evolved quickly into another server for storage.
 
-I started to use Home Assistant and gained an appreciation for smart homes and IOT technology, as well as the cybersecurity implications that came with it. I began to familiarize myself with Linux through Proxmox and Raspberry Pi and this helped me build my understand how Docker works.
+I started to use Home Assistant and gained an appreciation for smart homes and IOT technology, as well as the cybersecurity implications that came with it. I began to familiarize myself with Linux through Proxmox and Raspberry Pi and this helped build my understanding of how Docker works.
 
 Over the last couple of years, I have aquired a few older enterprise-grade servers to learn how they work differently from a normal computer. This has allowed me to expand my homelab even more! I am currently running TrueNAS, Proxmox as well as two Docker servers.
 
