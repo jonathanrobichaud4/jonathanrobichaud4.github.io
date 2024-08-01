@@ -3,8 +3,8 @@
 - [Table of Contents](#table-of-contents)
 - [Installing and Deploying](#installing-and-deploying)
   - [Recommended Approach](#recommended-approach)
-  - [Local Setup on Windows](#local-setup-on-windows)
-  - [Local Setup using Docker (Recommended)](#local-setup-using-docker-recommended)
+  - [Local setup on Windows](#local-setup-on-windows)
+  - [Local setup using Docker (Recommended)](#local-setup-using-docker-recommended)
     - [Build your own docker image](#build-your-own-docker-image)
   - [Local Setup with Development Containers](#local-setup-with-development-containers)
   - [Local Setup (Legacy, no longer supported)](#local-setup-legacy-no-longer-supported)
@@ -29,8 +29,7 @@ The recommended approach for using **al-folio** is to first create your own site
 4. Wait until the GitHub actions finish (check your repository **Actions** tab). Now, in addition to the master branch, your repository has a newly built gh-pages branch.
 5. Finally, in the repository page go to `Settings -> Pages -> Build and deployment`, make sure that `Source` is set to `Deploy from a branch` and set the branch to `gh-pages` (NOT to master).
 6. Wait until the GitHub actions finish (check your repository **Actions** tab), then simply navigate to `https://<your-github-username>.github.io` in your browser. At this point you should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/).
-
-After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following commands:
+   After everything is set up, you can download the repository to your machine and start customizing it. To do so, run the following commands:
 
 ```bash
 $ git clone git@github.com:<your-username>/<your-repo-name>.git
@@ -91,7 +90,7 @@ Assuming you have [Ruby](https://www.ruby-lang.org/en/downloads/) and [Bundler](
 $ bundle install
 # assuming pip is your Python package manager
 $ pip install jupyter
-$ bundle exec jekyll serve --lsi
+$ bundle exec jekyll serve
 ```
 
 To see the template running, open your browser and go to `http://localhost:4000`. You should see a copy of the theme's [demo website](https://alshedivat.github.io/al-folio/). Now, feel free to customize the theme however you like. After you are done, remember to **commit** your final changes.
@@ -135,7 +134,7 @@ If you need to manually re-deploy your website to GitHub pages, go to Actions, c
 If you decide to not use GitHub Pages and host your page elsewhere, simply run:
 
 ```bash
-$ bundle exec jekyll build --lsi
+$ bundle exec jekyll build
 ```
 
 which will (re-)generate the static webpage in the `_site/` folder.
@@ -163,7 +162,7 @@ Firstly, from the deployment repo dir, checkout the git branch hosting your publ
 Then from the website sources dir (commonly your al-folio fork's clone):
 
 ```bash
-$ bundle exec jekyll build --lsi --destination $HOME/repo/publishing-source
+$ bundle exec jekyll build --destination $HOME/repo/publishing-source
 ```
 
 This will instruct jekyll to deploy the website under `$HOME/repo/publishing-source`.
