@@ -10,5 +10,4 @@ Gemfile.lock
 assets/libs/
 node_modules/
 vendor
-_news/examples/
-_posts/examples/
+.idea
